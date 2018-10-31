@@ -5,4 +5,4 @@ Used to build image [bandaangosta/nginx-uwsgi-flask-pandas](https://hub.docker.c
 
 To build image:
 
-    docker build -t nginx-uwsgi-flask-pandas -f Dockerfile.nginx-uwsgi-flask-pandas .
+    docker build -t nginx-uwsgi-flask-pandas .
