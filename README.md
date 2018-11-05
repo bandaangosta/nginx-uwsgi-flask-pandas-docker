@@ -1,5 +1,6 @@
 # nginx-uwsgi-flask-pandas-docker
- Docker image with uWSGI and Nginx for Flask applications in Python running in a single container. Includes NumPy and Pandas libraries. Alpine-based version available
+Docker image with uWSGI and Nginx for Flask applications in Python running in a single container. Includes NumPy and Pandas libraries. Alpine-based version available.  
+It helps speed up final image creation as Pandas and NumPy may need to be built.
 
 Used to build image [bandaangosta/nginx-uwsgi-flask-pandas](https://hub.docker.com/r/bandaangosta/nginx-uwsgi-flask-pandas/).
 
@@ -15,8 +16,8 @@ To manually build image, clone repo and run:
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`python3.6` _(Dockerfile)_](https://github.com/bandaangosta/uwsgi-nginx-flask-docker/blob/master/python3.6/Dockerfile)
-* [`python3.6-alpine3.7` _(Dockerfile)_](https://github.com/bandaangosta/uwsgi-nginx-flask-docker/blob/master/python3.6-alpine3.7/Dockerfile)
+* [`python3.6` _(Dockerfile)_](https://github.com/bandaangosta/nginx-uwsgi-flask-pandas-docker/blob/master/python3.6/Dockerfile)
+* [`python3.6-alpine3.7` _(Dockerfile)_](https://github.com/bandaangosta/nginx-uwsgi-flask-pandas-docker/blob/master/python3.6-alpine3.7/Dockerfile)
 
 ## Latest version is based on
 
